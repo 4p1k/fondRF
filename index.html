@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Новогоднее чудо — помоги детям!</title>
+  <title>Стань Помощником Деда Мороза!</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
 </head>
 <body>
-  <div class="snowflakes">
+<div class="snowflakes">
     <span style="left:10%; animation-duration:10s;">❄</span>
     <span style="left:20%; animation-duration:12s;">❄</span>
     <span style="left:30%; animation-duration:8s;">❄</span>
@@ -20,95 +21,171 @@
   </div>
 
   <div class="overlay">
+    <!-- HEADER С ПРАВИЛЬНОЙ ГИРЛЯНДОЙ -->
     <header>
       <div class="container">
-        <div class="logo-container">
-          <img src="img/╨╗╨╛╨│╨╛ ╨Ы╨░╨┤╨╛╨╜╤М .jpg" alt="Российский детский фонд" class="logo-img">
-          <div class="logo-text">
-            <div class="logo-title">Российский детский фонд</div>
-            <div class="logo-subtitle">Пензенское отделение</div>
+        <div class="header-content">
+          <div class="logo-container">
+            <img src="img/logo.jpg" alt="Российский детский фонд" class="logo-img">
+            <div class="logo-text">
+              <div class="logo-title">Российский детский фонд</div>
+              <div class="logo-subtitle">Пензенское отделение</div>
+            </div>
           </div>
         </div>
       </div>
     </header>
 
+    <!-- ГЛАВНЫЙ ЭКРАН -->
     <section class="hero">
       <div class="container">
         <div class="hero-content">
-          <h1>Новогодняя акция «Подари чудо детям!»</h1>
           <div class="hero-image">
-            <img src="img/╨┤╨╡╨┤.png" alt="Дед Мороз">
+            <img src="img/dedaMoroz.png" alt="Дед Мороз">
           </div>
-          <a href="#donate" class="donate-btn">Сделать пожертвование</a>
+          <div class="message">
+            <h1>Стань Помощником Деда Мороза!</h1>
+            <p>В этом году самое главное чудо — не ждать подарков, а стать Дедом Морозом для того, кто в этом действительно нуждается. Каждый ребенок заслуживает настоящего праздника. Подарите его вместе с нами.</p>
+            <a href="#help-options" class="donate-btn magic-btn">Стать Волшебником</a>
+          </div>
         </div>
       </div>
     </section>
 
+    <!-- КАК ЭТО РАБОТАЕТ -->
     <section class="section">
       <div class="container">
-        <h2>Как ваша помощь изменит праздник для детей?</h2>
+        <h2>Три шага к чуду</h2>
         <div class="features">
-          <div class="feature">
-            <div class="feature-icon">🎁</div>
-            <h3>Новогодние подарки</h3>
-            <p>Каждый ребенок получит индивидуальный подарок, о котором он мечтал</p>
+          <div class="feature magic-feature">
+            <div class="feature-icon">✨</div>
+            <h3>Выберите Волшебство</h3>
+            <p>Выберите, как именно вы хотите помочь: купите новогодний подарок, отправьте сертификат на Ozon или сделайте пожертвование на самые нужные нужды фонда. Любое ваше действие — это частичка чуда.</p>
           </div>
-          <div class="feature">
-            <div class="feature-icon">🎪</div>
-            <h3>Праздничные мероприятия</h3>
-            <p>Мы организуем яркие новогодние представления с Дедом Морозом и Снегурочкой</p>
+          <div class="feature magic-feature">
+            <div class="feature-icon">🦌</div>
+            <h3>Подарок отправлен в путь</h3>
+            <p>Ваше пожертвование или подарок мгновенно превращается в конкретную помощь: в теплую одежду для «Доброго Шкафа», развивающие игрушки для «Доброго Дома» или лечение для ребенка.</p>
           </div>
-          <div class="feature">
-            <div class="feature-icon">❤️</div>
-            <h3>Внимание и забота</h3>
-            <p>Дети почувствуют, что о них помнят и их любят в этот волшебный праздник</p>
+          <div class="feature magic-feature">
+            <div class="feature-icon">😊</div>
+            <h3>Чудо свершилось!</h3>
+            <p>Вы получаете фото- или видеоотчет и видите, как именно ваше волшебство помогло ребенку. Вы дарите не просто вещь, а надежду, радость и веру в добро.</p>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- ВАРИАНТЫ ПОМОЩИ -->
+    <section id="help-options" class="section">
+      <div class="container">
+        <h2>Станьте Дедом Морозом</h2>
+        <div class="help-options">
+          <div class="help-option">
+            <div class="help-icon">🎁</div>
+            <h3>Новогодний подарок</h3>
+            <p>Подарите ребенку сладкий набор или игрушку. Для нас важно, чтобы у каждого нашего подопечного под елкой лежал персональный подарок от Деда Мороза.</p>
+            <a href="#" class="donate-btn option-btn">Подарить Подарок</a>
+          </div>
+          <div class="help-option">
+            <div class="help-icon">📧</div>
+            <h3>Ozon-сертификат</h3>
+            <p>Самый простой и быстрый способ помочь. Купите электронный сертификат, и мы сами купим на него самое необходимое: от продуктов для кулинарных мастер-классов до развивающих пособий.</p>
+            <a href="#" class="donate-btn option-btn">Отправить Сертификат</a>
+          </div>
+          <div class="help-option">
+            <div class="help-icon">❤️</div>
+            <h3>Любое пожертвование</h3>
+            <p>Даже самое небольшое пожертвование — это шаг к чуду. Эти средства мы направим на срочные нужды фонда: лечение детей, хозяйственные нужды или развивающие занятия.</p>
+            <a href="#donate" class="donate-btn option-btn">Сделать Чудо</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- СОЦИАЛЬНОЕ ДОКАЗАТЕЛЬСТВО -->
+    <section class="section proof-section">
+      <div class="container">
+        <h2>Мы не бросаем слова на ветер</h2>
+        <div class="social-proof">
+          <div class="proof-stats">
+            <div class="stat">
+              <div class="stat-number">1,247</div>
+              <div class="stat-label">волшебников</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">500+</div>
+              <div class="stat-label">подарков собрано</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">200 000+</div>
+              <div class="stat-label">рублей на лечение</div>
+            </div>
+          </div>
+          <p class="proof-text">Каждый день к нашей команде добрых дел присоединяются новые помощники. Вместе мы уже подарили праздник сотням детей. Ваша помощь — не капля в море, а настоящая волна добра.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- КНОПКИ ПОЖЕРТВОВАНИЙ -->
     <section id="donate" class="section">
       <div class="container">
-        <h2>Сделать пожертвование</h2>
+        <h2>Совершите волшебство</h2>
         <p>Выберите сумму пожертвования или введите свою</p>
         
         <div class="donation-options">
-          <div class="donation-option" data-amount="500">
-            <div class="donation-amount">500 ₽</div>
-            <div class="donation-description">Подарок для одного ребенка</div>
+          <div class="donation-option" data-amount="222">
+            <div class="donation-image">
+              <img src="img/group10.png" alt="Group 10">
+            </div>
+            <div class="donation-amount">222 ₽</div>
           </div>
-          <div class="donation-option" data-amount="1000">
-            <div class="donation-amount">1000 ₽</div>
-            <div class="donation-description">Праздник для двух детей</div>
+          <div class="donation-option" data-amount="666">
+            <div class="donation-image">
+              <img src="img/group10.png" alt="Group 10">
+            </div>
+            <div class="donation-amount">666 ₽</div>
           </div>
-          <div class="donation-option active" data-amount="2500">
-            <div class="donation-amount">2500 ₽</div>
-            <div class="donation-description">Новогодний набор для группы</div>
+          <div class="donation-option active" data-amount="2026">
+            <div class="donation-image">
+              <img src="img/group10.png" alt="Group 10">
+            </div>
+            <div class="donation-amount">2026 ₽</div>
           </div>
-          <div class="donation-option" data-amount="5000">
-            <div class="donation-amount">5000 ₽</div>
-            <div class="donation-description">Организация праздника</div>
+          <div class="donation-option" data-amount="6666">
+            <div class="donation-image">
+              <img src="img/group10.png" alt="Group 10">
+            </div>
+            <div class="donation-amount">6666 ₽</div>
           </div>
         </div>
         
         <div class="custom-amount">
           <input type="number" placeholder="Другая сумма" id="custom-amount">
-          <a href="#" class="donate-btn" id="custom-donate">Пожертвовать</a>
+          <a href="#" class="donate-btn magic-action-btn" id="custom-donate">Совершить волшебство</a>
         </div>
+      </div>
+    </section>
+
+    <!-- ЗАКЛЮЧИТЕЛЬНЫЙ ПРИЗЫВ -->
+    <section class="section final-cta">
+      <div class="container">
+        <h2>Готовы стать чьим-то Дедом Морозом?</h2>
+        <p>Не каждый может надеть красную шубу и белую бороду. Но каждый может стать волшебником для ребенка, который ждет чуда. Подарите ему не просто подарок — подарите веру.</p>
+        <a href="#donate" class="donate-btn final-btn">Стать Волшебником Прямо Сейчас!</a>
       </div>
     </section>
 
     <footer>
       <div class="container">
         <div class="footer-content">
-          <p>© Российский детский фонд, г. Пенза — 2023</p>
+          <p>© Российский детский фонд, г. Пенза — 2025</p>
           <p>Каждая снежинка добра делает мир теплее ❤️</p>
           <p>Контактная информация: fond-penza@mail.ru | +7 (8412) XX-XX-XX</p>
         </div>
       </div>
     </footer>
   </div>
-
   
   <script src="main.js"></script>
 </body>
