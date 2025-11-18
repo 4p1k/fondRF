@@ -362,10 +362,11 @@ h2 {
 }
 
 .donation-option {
+  display: flex;
+  flex-direction: row;  
   background: rgba(255, 255, 255, 0.9);
-  padding: 25px 15px;
   border-radius: 15px;
-  width: 180px;
+  width: 203px;
   cursor: pointer;
   transition: all 0.3s ease;
   border: 2px solid transparent;
@@ -383,14 +384,11 @@ h2 {
 }
 
 .donation-amount {
-  font-size: 1.8em;
-  font-weight: bold;
-  color: #0072ff;
-  margin-bottom: 10px;
+  visibility: hidden;
 }
 
 .donation-image {
-  width: 100%;
+  /* width: 100%; */
   height: auto;
   border-radius: 15px;
 }
